@@ -1,0 +1,15 @@
+###
+GET http://127.0.0.1:8080/lists
+
+###
+POST http://127.0.0.1:8080/lists
+Content-Type: application/json
+
+{
+    "name": "hikristya"
+}
+
+###
+DELETE   http://127.0.0.1:8080/somedel/82333cab-e8f4-4f4e-bd2c-bac7a06c2e92
+
+###
